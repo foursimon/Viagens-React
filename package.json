@@ -1,4 +1,5 @@
 {
+  "homepage": "https://foursimon.github.io/Viagens-React",
   "name": "viagensreact",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
-  "homepage": "http://foursimon.github.io/Viagens-React",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
